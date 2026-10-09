@@ -8,9 +8,9 @@
 **Stack:** Vue 3 (Vite), Tailwind CSS, Vue Router, Pinia, Zod, data dummy JSON lokal (tanpa backend/database), Vitest + @vue/test-utils
 
 ## Status Saat Ini
-- **Fase aktif:** Fase 5 — Kontak & Form Validasi (FR-6.x)
-- **Test:** 32 passed / 32 total
-- **Sedang dikerjakan:** Siap memulai Fase 5 (Form Kontak, Skema Zod, Aksesibilitas ARIA, Simulasi Pengiriman & Toast)
+- **Fase aktif:** Fase 6 — Polishing, Responsivitas, SEO, & Aksesibilitas
+- **Test:** 45 passed / 45 total
+- **Sedang dikerjakan:** Siap memulai Fase 6 (Audit Responsif Mobile/Desktop, Aksesibilitas, Metadata SEO, dan Optimasi)
 - **Update terakhir:** 2026-10-09
 
 > Update 3 baris di atas setiap kali fase/task berubah. Jangan biarkan basi.

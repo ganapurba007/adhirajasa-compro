@@ -14,6 +14,18 @@ Format tiap entri:
 **Docs updated:** [PRD §9 / SCHEMA.md / tidak ada perubahan scope]
 -->
 
+## Fase 5 — Halaman Kontak, Form Validasi Zod, & Simulasi Pengiriman (2026-10-09)
+**FR terkait:** FR-6.1, FR-6.2, FR-6.3, FR-6.4, FR-6.5, FR-6.6
+**Yang dikerjakan:**
+- Membuat skema validasi `contactSchema.js` dengan Zod sesuai aturan field, regex telepon `08xx`/`+62xx`, dan pesan error spesifik (FR-6.1)
+- Membuat komponen `ContactForm.vue` (FR-6.1 s/d FR-6.5): validasi *realtime on-blur* & submit, counter karakter dinamis, anti-spam honeypot, aksesibilitas penuh (`aria-invalid`, `aria-describedby`), status loading/disabled saat submit, pemindahan fokus otomatis ke field error pertama, serta toggle simulasi skenario gagal/sukses
+- Membuat komponen `ToastNotification.vue` untuk popup notifikasi sukses/error
+- Menyusun halaman `src/views/ContactView.vue` (FR-6.6: blok info kontak lengkap, jam kerja, bebas pulsa, FAQ konsultasi, dan peta interaktif embed Google Maps)
+- Menambahkan 3 file unit test baru di `src/components/__tests__/` (`contactSchema.spec.js`, `ContactForm.spec.js`, `ContactView.spec.js`)
+**File yang berubah:** src/lib/contactSchema.js, src/components/forms/ContactForm.vue, src/components/ui/ToastNotification.vue, src/views/ContactView.vue, src/components/__tests__/*, context/CHANGELOG.md, context/PRD.md, AGENTS.md
+**Test:** 45 passed / 45 total
+**Docs updated:** PRD §6 dan AGENTS.md
+
 ## Fase 4 — Portfolio Proyek (Grid, Filter Kategori, & Detail Proyek) (2026-10-09)
 **FR terkait:** FR-5.1, FR-5.2, FR-5.3, FR-5.4
 **Yang dikerjakan:**

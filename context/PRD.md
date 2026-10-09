@@ -125,7 +125,7 @@ Volume data dummy minimal: 8 proyek, 5 layanan, 4 anggota tim, 4 testimoni, 3 he
 | 2 | Data dummy JSON + Beranda (FR-2.x) | ✅ |
 | 3 | Tentang dan Layanan (FR-3.x, FR-4.x) | ✅ |
 | 4 | Proyek: grid, filter, detail (FR-5.x) | ✅ |
-| 5 | Kontak: form, validasi, simulasi submit (FR-6.x) | ⬜ |
+| 5 | Kontak: form, validasi, simulasi submit (FR-6.x) | ✅ |
 | 6 | Polishing: responsif, aksesibilitas, SEO, optimasi gambar | ⬜ |
 | 7 | Rilis: deploy, README, screenshot, tautan demo | ⬜ |
 
