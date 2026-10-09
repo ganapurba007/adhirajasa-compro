@@ -17,7 +17,7 @@ defineProps({
   },
   backgroundImage: {
     type: String,
-    default: 'https://images.unsplash.com/photo-1541888946425-d0fbb18f15f6?auto=format&fit=crop&w=1600&q=80'
+    default: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80'
   }
 })
 </script>

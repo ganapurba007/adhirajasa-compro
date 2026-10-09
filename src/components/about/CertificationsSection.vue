@@ -26,8 +26,18 @@ const certifications = companyData.certifications
           class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group"
         >
           <div>
-            <div class="w-12 h-12 rounded-xl bg-amber-50 group-hover:bg-amber-500 text-amber-600 group-hover:text-slate-950 flex items-center justify-center font-bold mb-6 transition-colors shadow-sm">
-              <ShieldCheck class="w-6 h-6" />
+            <!-- Certificate Preview Image -->
+            <div class="relative h-32 rounded-xl overflow-hidden mb-5 bg-slate-100 border border-slate-100">
+              <img
+                :src="cert.image"
+                :alt="cert.name"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent" />
+              <div class="absolute bottom-2.5 left-2.5 w-8 h-8 rounded-lg bg-amber-500 text-slate-950 flex items-center justify-center font-bold shadow">
+                <ShieldCheck class="w-4 h-4" />
+              </div>
             </div>
 
             <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors mb-2 leading-snug">
