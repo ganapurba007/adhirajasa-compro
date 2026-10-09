@@ -8,9 +8,9 @@
 **Stack:** Vue 3 (Vite), Tailwind CSS, Vue Router, Pinia, Zod, data dummy JSON lokal (tanpa backend/database), Vitest + @vue/test-utils
 
 ## Status Saat Ini
-- **Fase aktif:** Fase 1 — Layout Global (FR-1.x) & UI Components Dasar
-- **Test:** 1 passed / 1 total
-- **Sedang dikerjakan:** Siap memulai Fase 1 (Navbar, TopBar, Footer, ScrollToTop, UI Base)
+- **Fase aktif:** Fase 5 — Kontak & Form Validasi (FR-6.x)
+- **Test:** 32 passed / 32 total
+- **Sedang dikerjakan:** Siap memulai Fase 5 (Form Kontak, Skema Zod, Aksesibilitas ARIA, Simulasi Pengiriman & Toast)
 - **Update terakhir:** 2026-10-09
 
 > Update 3 baris di atas setiap kali fase/task berubah. Jangan biarkan basi.

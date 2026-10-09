@@ -1,19 +1,42 @@
 <script setup>
+import HeroSlider from '@/components/sections/HeroSlider.vue'
+import ScoreCards from '@/components/sections/ScoreCards.vue'
+import AboutSection from '@/components/sections/AboutSection.vue'
+import ServicesSection from '@/components/sections/ServicesSection.vue'
+import WorkProcessSection from '@/components/sections/WorkProcessSection.vue'
+import StatsStrip from '@/components/sections/StatsStrip.vue'
+import FeaturedProjects from '@/components/sections/FeaturedProjects.vue'
+import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
+import CtaBanner from '@/components/sections/CtaBanner.vue'
 </script>
 
 <template>
-  <div class="min-h-[60vh] flex flex-col items-center justify-center py-20 px-4 text-center">
-    <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-      PT Bangun Karya Nusantara
-    </h1>
-    <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-8">
-      Membangun Masa Depan Nusantara dengan Presisi, Kualitas, dan Integritas.
-    </p>
-    <router-link
-      to="/proyek"
-      class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold shadow-md transition duration-200"
-    >
-      Lihat Portfolio Proyek
-    </router-link>
+  <div class="space-y-0">
+    <!-- FR-2.1: Hero Slider 3 slide with autoplay & controls -->
+    <HeroSlider />
+
+    <!-- FR-2.2: 3 Score Cards overlapping under hero -->
+    <ScoreCards />
+
+    <!-- FR-2.3: About Section with dual CTAs & company highlights -->
+    <AboutSection />
+
+    <!-- FR-2.4: 4 Services Cards with icons & imagery -->
+    <ServicesSection />
+
+    <!-- FR-2.5: 4-Step Work Process with anchor id "alur-kerja" -->
+    <WorkProcessSection />
+
+    <!-- FR-2.6: Animated Stats Counter & Toll-Free CTA Strip -->
+    <StatsStrip />
+
+    <!-- FR-2.7: Featured Projects Grid (3 items) with detail links -->
+    <FeaturedProjects />
+
+    <!-- FR-2.8: Client Testimonials with stars & avatars -->
+    <TestimonialsSection />
+
+    <!-- FR-2.9: Bottom CTA Banner to /kontak -->
+    <CtaBanner />
   </div>
 </template>

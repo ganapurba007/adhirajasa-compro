@@ -9,10 +9,70 @@ Format tiap entri:
 **FR terkait:** [nomor FR dari PRD.md §3, kalau ada]
 **Yang dikerjakan:**
 - [poin singkat]
-**File yang berubah:** [daftar file utama, tidak perlu semua kalau banyak]
+**File yang berubah:** [daftar file utama]
 **Test:** [X passed / Y total]
 **Docs updated:** [PRD §9 / SCHEMA.md / tidak ada perubahan scope]
 -->
+
+## Fase 4 — Portfolio Proyek (Grid, Filter Kategori, & Detail Proyek) (2026-10-09)
+**FR terkait:** FR-5.1, FR-5.2, FR-5.3, FR-5.4
+**Yang dikerjakan:**
+- Membuat komponen `ProjectCard.vue` (FR-5.1: visual thumbnail, badge kategori & status, lokasi, tahun, durasi pengerjaan, judul, ringkasan, dan link detail)
+- Membuat komponen `ProjectFilter.vue` (FR-5.2: tombol filter interaktif per kategori dengan penghitung jumlah proyek dinamis)
+- Menyusun halaman `src/views/ProjectsView.vue` (FR-5.1 & FR-5.2: grid responsif 3-kolom, filter realtime tanpa reload, empty state handling, dan banner CTA)
+- Menyusun halaman `src/views/ProjectDetailView.vue` (FR-5.3: galeri foto dengan thumbnail switcher, ringkasan spesifikasi klien/lokasi/durasi, deskripsi rekayasa teknis, tombol salin tautan, dan section proyek terkait)
+- Menambahkan penanganan 404 pada `ProjectDetailView.vue` (FR-5.4: tampilan informatif bila slug proyek tidak ditemukan dengan tombol kembali ke katalog proyek)
+- Menambahkan file unit tests di `src/components/__tests__/` (`ProjectsView.spec.js` dan `ProjectDetailView.spec.js`)
+**File yang berubah:** src/components/projects/*, src/views/ProjectsView.vue, src/views/ProjectDetailView.vue, src/components/__tests__/*, context/CHANGELOG.md, context/PRD.md, AGENTS.md
+**Test:** 32 passed / 32 total
+**Docs updated:** PRD §6 dan AGENTS.md
+
+## Fase 3 — Halaman Tentang Kami & Layanan Konstruksi (2026-10-09)
+**FR terkait:** FR-3.1, FR-3.2, FR-3.3, FR-3.4, FR-4.1, FR-4.2
+**Yang dikerjakan:**
+- Membuat komponen reusable `PageHeader.vue` dengan background overlay dan navigasi breadcrumb
+- Membuat komponen `VisionMission.vue` (FR-3.1: visi perusahaan, 4 pilar misi strategis, dan nilai integritas)
+- Membuat komponen `CompanyHistory.vue` (FR-3.2: timeline vertikal interaktif jejak sejarah perusahaan 2012–2024)
+- Membuat komponen `TeamSection.vue` (FR-3.3: profil jajaran manajemen dan tenaga ahli teknik berlisensi)
+- Membuat komponen `CertificationsSection.vue` (FR-3.4: legalitas resmi SBU Kualifikasi Besar & sertifikasi ISO 9001, 14001, 45001)
+- Menyusun halaman `src/views/AboutView.vue` secara utuh
+- Menyusun halaman `src/views/ServicesView.vue` (FR-4.1: showcase 5 layanan spesialis dengan ruang lingkup lengkap; FR-4.2: integrasi alur kerja & CTA banner)
+- Menambahkan 3 file unit test baru di `src/components/__tests__/` (`PageHeader.spec.js`, `AboutView.spec.js`, `ServicesView.spec.js`)
+**File yang berubah:** src/components/ui/PageHeader.vue, src/components/about/*, src/views/AboutView.vue, src/views/ServicesView.vue, src/components/__tests__/*, context/CHANGELOG.md, context/PRD.md, AGENTS.md
+**Test:** 28 passed / 28 total
+**Docs updated:** PRD §6 dan AGENTS.md
+
+## Fase 2 — Beranda & Homepage Sections (2026-10-09)
+**FR terkait:** FR-2.1, FR-2.2, FR-2.3, FR-2.4, FR-2.5, FR-2.6, FR-2.7, FR-2.8, FR-2.9
+**Yang dikerjakan:**
+- Membuat komponen `HeroSlider.vue` (FR-2.1: slider 3 slide, autoplay 6 detik, kontrol panah & indikator, pause saat hover)
+- Membuat komponen `ScoreCards.vue` (FR-2.2: 3 kartu skor bernomor yang menumpuk di bawah hero slider)
+- Membuat komponen `AboutSection.vue` (FR-2.3: ringkasan profil, highlight poin keunggulan, dual CTAs ke profil dan alur kerja)
+- Membuat komponen `ServicesSection.vue` (FR-2.4: 4 kartu layanan bernomor dengan ikon, deskripsi, dan link detail)
+- Membuat komponen `WorkProcessSection.vue` (FR-2.5: 4 langkah kerja terstruktur dengan gambar dan anchor id `#alur-kerja`)
+- Membuat komponen `StatsStrip.vue` (FR-2.6: statistik hitung otomatis saat masuk viewport via IntersectionObserver & bebas pulsa)
+- Membuat komponen `FeaturedProjects.vue` (FR-2.7: grid 3 proyek unggulan dengan kategori, status, dan link detail)
+- Membuat komponen `TestimonialsSection.vue` (FR-2.8: kartu testimoni klien dengan bintang rating dan avatar)
+- Membuat komponen `CtaBanner.vue` (FR-2.9: banner penutup ajakan konsultasi menuju `/kontak`)
+- Merakit seluruh section secara mulus di `src/views/HomeView.vue`
+- Menambahkan 5 file unit test baru di `src/components/__tests__/`
+**File yang berubah:** src/components/sections/*, src/views/HomeView.vue, src/components/__tests__/*, vite.config.js, context/CHANGELOG.md, context/PRD.md, AGENTS.md
+**Test:** 21 passed / 21 total
+**Docs updated:** PRD §6 dan AGENTS.md
+
+## Fase 1 — Layout Global & UI Components Dasar (2026-10-09)
+**FR terkait:** FR-1.1, FR-1.2, FR-1.3, FR-1.4, FR-1.5, FR-1.6, FR-1.7
+**Yang dikerjakan:**
+- Membuat komponen `TopBar.vue` (FR-1.1: kontak telepon, email, jam kerja, bebas pulsa; hidden on mobile)
+- Membuat komponen `Navbar.vue` (FR-1.2, FR-1.3: sticky navigation, logo branding, indikator menu aktif, CTA Konsultasi Gratis, mobile drawer dengan escape listener & backdrop close)
+- Membuat komponen `Footer.vue` (FR-1.4: 3-kolom tentang perusahaan, media sosial, tautan cepat, info kontak lengkap, baris hak cipta)
+- Membuat komponen `ScrollToTop.vue` (FR-1.5: tombol melayang smooth-scroll yang muncul setelah scroll 400px)
+- Membuat komponen UI dasar: `BaseButton.vue`, `BaseCard.vue`, `SectionTitle.vue`, `BaseBadge.vue`
+- Mengintegrasikan seluruh layout global ke dalam `src/App.vue`
+- Menambahkan unit tests lengkap untuk seluruh komponen layout dan UI dasar
+**File yang berubah:** src/components/layout/*, src/components/ui/*, src/components/__tests__/*, src/App.vue, context/CHANGELOG.md, context/PRD.md, AGENTS.md
+**Test:** 14 passed / 14 total
+**Docs updated:** PRD §6 dan AGENTS.md
 
 ## Fase 0 — Setup Dasar Proyek & Data JSON (2026-10-09)
 **Yang dikerjakan:**

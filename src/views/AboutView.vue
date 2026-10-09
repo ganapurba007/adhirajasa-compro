@@ -1,11 +1,35 @@
 <script setup>
+import PageHeader from '@/components/ui/PageHeader.vue'
+import VisionMission from '@/components/about/VisionMission.vue'
+import CompanyHistory from '@/components/about/CompanyHistory.vue'
+import TeamSection from '@/components/about/TeamSection.vue'
+import CertificationsSection from '@/components/about/CertificationsSection.vue'
+import CtaBanner from '@/components/sections/CtaBanner.vue'
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto px-4 py-16">
-    <h1 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Tentang Kami</h1>
-    <p class="text-slate-600 leading-relaxed">
-      Halaman profil perusahaan, visi misi, sejarah, dan struktur organisasi PT Bangun Karya Nusantara.
-    </p>
+  <div class="space-y-0">
+    <!-- Page Header Banner with Breadcrumbs -->
+    <PageHeader
+      title="Tentang Kami"
+      subtitle="Profil komprehensif, visi misi, sejarah perjalanan, dan jajaran pimpinan PT Bangun Karya Nusantara."
+      :breadcrumbs="[{ name: 'Tentang Kami' }]"
+      backgroundImage="https://images.unsplash.com/photo-1541888946425-d0fbb18f15f6?auto=format&fit=crop&w=1600&q=80"
+    />
+
+    <!-- FR-3.1: Profil Perusahaan, Visi & Misi -->
+    <VisionMission />
+
+    <!-- FR-3.2: Timeline Sejarah Perusahaan -->
+    <CompanyHistory />
+
+    <!-- FR-3.3: Jajaran Tim Inti Manajemen -->
+    <TeamSection />
+
+    <!-- FR-3.4: Legalitas & Sertifikasi (SBU, ISO) -->
+    <CertificationsSection />
+
+    <!-- Call to Action Banner -->
+    <CtaBanner />
   </div>
 </template>
