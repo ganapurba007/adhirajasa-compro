@@ -147,10 +147,8 @@ const getSocialIcon = (name) => {
         <p>
           &copy; {{ currentYear }} <span class="text-slate-400 font-semibold">{{ companyData.name }}</span>. Seluruh hak cipta dilindungi.
         </p>
-        <div class="flex items-center space-x-6 text-slate-500">
-          <span>Dummy Portfolio Project</span>
-          <span>•</span>
-          <span class="text-amber-500 font-medium">Standar K3 & ISO Certified</span>
+        <div class="flex items-center text-slate-500">
+          <span class="text-amber-500 font-medium">Standar Mutu K3 & ISO Certified</span>
         </div>
       </div>
     </div>
