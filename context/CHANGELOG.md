@@ -14,6 +14,19 @@ Format tiap entri:
 **Docs updated:** [PRD §9 / SCHEMA.md / tidak ada perubahan scope]
 -->
 
+## Fase 6 — Polishing, Responsivitas, SEO & Aksesibilitas (2026-10-09)
+**FR terkait:** FR-1.6, FR-1.7, FR-6.5
+**Yang dikerjakan:**
+- Audit & optimasi responsivitas mobile-first dan desktop layout di seluruh viewport (360px, 768px, 1024px, 1280px+) dengan pencegahan horizontal overflow
+- Penambahan OpenGraph meta tags, Twitter Cards, robots meta, dan Schema.org JSON-LD Structured Data `GeneralContractor` di `index.html`
+- Polishing tampilan halaman 404 `NotFoundView.vue` (FR-1.7) dengan navigasi kembali ke beranda dan bantuan kontak
+- Penguatan aksesibilitas ARIA labels, semantic landmark tags, touch target standard, dan kontras warna
+- Menambahkan unit test untuk `NotFoundView.spec.js`
+- Verifikasi bundle production build (`npm run build`)
+**File yang berubah:** index.html, src/views/NotFoundView.vue, src/components/__tests__/NotFoundView.spec.js, context/CHANGELOG.md, context/PRD.md, AGENTS.md
+**Test:** 46 passed / 46 total
+**Docs updated:** PRD §6 dan AGENTS.md
+
 ## Fase 5 — Halaman Kontak, Form Validasi Zod, & Simulasi Pengiriman (2026-10-09)
 **FR terkait:** FR-6.1, FR-6.2, FR-6.3, FR-6.4, FR-6.5, FR-6.6
 **Yang dikerjakan:**
