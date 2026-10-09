@@ -46,9 +46,9 @@ const highlights = [
 
         <!-- Right Column: Content (lg:col-span-6) -->
         <div class="lg:col-span-6 space-y-6">
-          <!-- Section Badge -->
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-500/10 text-amber-600 border border-amber-500/20 text-xs font-bold uppercase tracking-wider">
-            <HardHat class="w-4 h-4" />
+          <!-- Section Eyebrow -->
+          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-600">
+            <span class="w-5 h-0.5 bg-amber-500 rounded-sm"></span>
             <span>Tentang Perusahaan</span>
           </div>
 

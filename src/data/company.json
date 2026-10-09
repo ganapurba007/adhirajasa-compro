@@ -46,9 +46,9 @@
     }
   ],
   "certifications": [
-    { "name": "SBU Jasa Pelaksana Konstruksi Kualifikasi Besar (B2)", "issuer": "LPJK / Kementerian PUPR", "image": "/images/cert-sbu.png" },
-    { "name": "ISO 9001:2015 Quality Management System", "issuer": "Bureau Veritas", "image": "/images/cert-iso9001.png" },
-    { "name": "ISO 45001:2018 Occupational Health & Safety", "issuer": "TUV Rheinland", "image": "/images/cert-iso45001.png" },
-    { "name": "ISO 14001:2015 Environmental Management", "issuer": "TUV Rheinland", "image": "/images/cert-iso14001.png" }
+    { "name": "SBU Jasa Pelaksana Konstruksi Kualifikasi Besar (B2)", "issuer": "LPJK / Kementerian PUPR", "image": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80" },
+    { "name": "ISO 9001:2015 Quality Management System", "issuer": "Bureau Veritas", "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&q=80" },
+    { "name": "ISO 45001:2018 Occupational Health & Safety", "issuer": "TUV Rheinland", "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" },
+    { "name": "ISO 14001:2015 Environmental Management", "issuer": "TUV Rheinland", "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80" }
   ]
 }

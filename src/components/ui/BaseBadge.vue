@@ -38,7 +38,7 @@ const sizeClasses = computed(() => {
 
 <template>
   <span
-    class="inline-flex items-center gap-1.5 rounded-full border font-medium select-none"
+    class="inline-flex items-center gap-1.5 rounded-md border font-semibold tracking-wide uppercase select-none"
     :class="[variantClasses, sizeClasses]"
   >
     <slot />

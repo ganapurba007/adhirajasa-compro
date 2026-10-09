@@ -48,7 +48,7 @@ const getTimelineIcon = (index) => {
                 :class="[index % 2 === 0 ? 'md:mr-8' : 'md:ml-8']"
               >
                 <!-- Year Badge -->
-                <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 text-amber-400 border border-amber-400/30 text-xs font-black font-heading mb-3">
+                <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-500/15 text-amber-400 border border-amber-400/20 text-xs font-bold font-heading mb-3">
                   <Calendar class="w-3.5 h-3.5" />
                   <span>Tahun {{ item.year }}</span>
                 </div>

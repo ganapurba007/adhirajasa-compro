@@ -14,6 +14,18 @@ Format tiap entri:
 **Docs updated:** [PRD §9 / SCHEMA.md / tidak ada perubahan scope]
 -->
 
+## Refactoring — Corporate Aesthetic Polish & Image Audit (2026-10-09)
+**Yang dikerjakan:**
+- Menghilangkan style pill/capsule badge generic ("AI slop") di seluruh website dan menggantinya dengan sleek corporate typography, eyebrow subheaders bergaris aksen minimalis, dan rounded-md micro-tags yang profesional
+- Membersihkan penggunaan tanda dash/strip berlebihan (`--`) pada placeholder form input dan opsi dropdown
+- Membuat icon tab browser (favicon) custom bertema helm kontraktor & struktur geometris arsitektur ([favicon.svg](file:///d:/compro/public/favicon.svg)) dan mengintegrasikannya di [index.html](file:///d:/compro/index.html)
+- Memperbarui [BaseBadge.vue](file:///d:/compro/src/components/ui/BaseBadge.vue), [SectionTitle.vue](file:///d:/compro/src/components/ui/SectionTitle.vue), [AboutSection.vue](file:///d:/compro/src/components/sections/AboutSection.vue), [CtaBanner.vue](file:///d:/compro/src/components/sections/CtaBanner.vue), [HeroSlider.vue](file:///d:/compro/src/components/sections/HeroSlider.vue), [ContactForm.vue](file:///d:/compro/src/components/forms/ContactForm.vue), [VisionMission.vue](file:///d:/compro/src/components/about/VisionMission.vue), dan [CompanyHistory.vue](file:///d:/compro/src/components/about/CompanyHistory.vue)
+- Menjalankan audit menyeluruh pada 39 URL gambar di dataset JSON: memperbaiki 3 URL Unsplash yang 404 (hero slider, work process step 3, project 2 gallery) dan memastikan seluruh gambar 100% valid HTTP 200
+- Menjalankan full unit test suite (46 passed / 46 total) & production build verification (`npm run build`)
+**File yang berubah:** BaseBadge.vue, SectionTitle.vue, AboutSection.vue, CtaBanner.vue, HeroSlider.vue, ContactForm.vue, VisionMission.vue, CompanyHistory.vue, ProjectFilter.vue, favicon.svg, index.html, company.json, home.json, projects.json, CHANGELOG.md
+**Test:** 46 passed / 46 total
+**Docs updated:** CHANGELOG.md
+
 ## Fase 7 — Rilis & Dokumentasi Akhir Proyek (2026-10-09)
 **Yang dikerjakan:**
 - Menyusun dokumentasi komprehensif `README.md` (deskripsi proyek, fitur unggulan per modul, arsitektur folder, tech stack, panduan instalasi/pengujian, panduan deployment SPA Vercel & Netlify, dan atribusi lisensi)

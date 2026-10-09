@@ -35,7 +35,7 @@ import SectionTitle from '@/components/ui/SectionTitle.vue'
           </div>
 
           <div class="pt-6 border-t border-slate-800 text-xs text-slate-400 flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+            <span class="w-2 h-2 rounded-sm bg-emerald-400 shrink-0" />
             <span>Terus Berinovasi Menuju Konstruksi Berkelanjutan</span>
           </div>
         </div>

@@ -137,8 +137,8 @@ const handleSubmit = async () => {
     
     <!-- Header info -->
     <div class="mb-8">
-      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-600 text-xs font-bold uppercase tracking-wider mb-2">
-        <Sparkles class="w-3.5 h-3.5" />
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-600 mb-2">
+        <span class="w-5 h-0.5 bg-amber-500 rounded-sm"></span>
         <span>Konsultasi Proyek Gratis</span>
       </div>
       <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
@@ -292,7 +292,7 @@ const handleSubmit = async () => {
                 : 'border-slate-200 focus:ring-amber-400 focus:border-amber-500 text-slate-900'
             ]"
           >
-            <option value="" disabled>-- Pilih Jenis Layanan --</option>
+            <option value="" disabled>Pilih Jenis Layanan</option>
             <option 
               v-for="service in servicesData" 
               :key="service.id" 
@@ -320,7 +320,7 @@ const handleSubmit = async () => {
           :disabled="isSubmitting"
           class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm transition-all focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 text-slate-900 disabled:bg-slate-100 cursor-pointer"
         >
-          <option value="">-- Pilih Estimasi Budget --</option>
+          <option value="">Pilih Estimasi Anggaran</option>
           <option v-for="b in budgetOptions" :key="b" :value="b">
             {{ b }}
           </option>

@@ -44,7 +44,7 @@ const getCategoryCount = (cat) => {
     >
       <span>{{ category }}</span>
       <span
-        class="text-[11px] px-2 py-0.5 rounded-full font-extrabold"
+        class="text-[11px] px-2 py-0.5 rounded-md font-extrabold"
         :class="[
           selectedCategory === category
             ? 'bg-slate-950 text-amber-400'

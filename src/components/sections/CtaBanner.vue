@@ -15,9 +15,10 @@ import companyData from '@/data/company.json'
         
         <!-- Left Text Content -->
         <div class="max-w-2xl space-y-4 text-center lg:text-left">
-          <span class="inline-block px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-400/30">
-            Mulai Kemitraan Bersama Kami
-          </span>
+          <div class="flex items-center justify-center lg:justify-start gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
+            <span class="w-5 h-0.5 bg-amber-400 rounded-sm"></span>
+            <span>Mulai Kemitraan Bersama Kami</span>
+          </div>
 
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white leading-tight">
             Siap Membangun Proyek Impian Anda dengan Presisi & Mutu Terbaik?

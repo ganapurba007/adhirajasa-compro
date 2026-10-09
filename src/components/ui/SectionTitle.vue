@@ -31,17 +31,16 @@ defineProps({
       align === 'center' ? 'text-center mx-auto max-w-3xl' : align === 'right' ? 'text-right' : 'text-left max-w-2xl'
     ]"
   >
-    <!-- Badge Subtitle -->
+    <!-- Category Eyebrow (Clean Non-Badge Style) -->
     <div 
       v-if="badge"
-      class="inline-flex items-center gap-2 px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider mb-3"
+      class="text-xs font-extrabold uppercase tracking-widest mb-3 flex items-center gap-2"
       :class="[
-        dark 
-          ? 'bg-amber-400/10 text-amber-400 border border-amber-400/20' 
-          : 'bg-amber-500/10 text-amber-600 border border-amber-500/20'
+        align === 'center' ? 'justify-center' : align === 'right' ? 'justify-end' : 'justify-start',
+        dark ? 'text-amber-400' : 'text-amber-600'
       ]"
     >
-      <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+      <span class="w-4 h-0.5 rounded-full" :class="dark ? 'bg-amber-400' : 'bg-amber-500'"></span>
       <span>{{ badge }}</span>
     </div>
 

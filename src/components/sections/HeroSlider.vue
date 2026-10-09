@@ -86,9 +86,9 @@ onUnmounted(() => {
       <!-- Slide Content -->
       <div class="relative max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
         <div class="max-w-3xl space-y-6">
-          <!-- Top Badge -->
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-400/40 backdrop-blur-md text-amber-400 text-xs sm:text-sm font-semibold tracking-wide">
-            <ShieldCheck class="w-4 h-4 text-amber-400" />
+          <!-- Top Eyebrow -->
+          <div class="flex items-center gap-3 text-amber-400 text-xs sm:text-sm font-bold uppercase tracking-widest">
+            <span class="w-8 h-0.5 bg-amber-400 rounded-full"></span>
             <span>Kontraktor Terpercaya & Bersertifikasi Nasional</span>
           </div>
 
