@@ -15,9 +15,8 @@ import companyData from '@/data/company.json'
         
         <!-- Left Text Content -->
         <div class="max-w-2xl space-y-4 text-center lg:text-left">
-          <div class="flex items-center justify-center lg:justify-start gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
-            <span class="w-5 h-0.5 bg-amber-400 rounded-sm"></span>
-            <span>Mulai Kemitraan Bersama Kami</span>
+          <div class="text-xs font-extrabold uppercase tracking-widest text-amber-400">
+            Mulai Kemitraan Bersama Kami
           </div>
 
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white leading-tight">

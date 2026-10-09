@@ -87,9 +87,8 @@ onUnmounted(() => {
       <div class="relative max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
         <div class="max-w-3xl space-y-6">
           <!-- Top Eyebrow -->
-          <div class="flex items-center gap-3 text-amber-400 text-xs sm:text-sm font-bold uppercase tracking-widest">
-            <span class="w-8 h-0.5 bg-amber-400 rounded-full"></span>
-            <span>Kontraktor Terpercaya & Bersertifikasi Nasional</span>
+          <div class="text-amber-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest">
+            Kontraktor Terpercaya & Bersertifikasi Nasional
           </div>
 
           <!-- Headline -->

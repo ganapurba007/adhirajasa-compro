@@ -47,9 +47,8 @@ const highlights = [
         <!-- Right Column: Content (lg:col-span-6) -->
         <div class="lg:col-span-6 space-y-6">
           <!-- Section Eyebrow -->
-          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-600">
-            <span class="w-5 h-0.5 bg-amber-500 rounded-sm"></span>
-            <span>Tentang Perusahaan</span>
+          <div class="text-xs font-extrabold uppercase tracking-widest text-amber-600">
+            Tentang Perusahaan
           </div>
 
           <!-- Main Title -->

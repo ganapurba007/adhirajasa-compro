@@ -137,9 +137,8 @@ const handleSubmit = async () => {
     
     <!-- Header info -->
     <div class="mb-8">
-      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-600 mb-2">
-        <span class="w-5 h-0.5 bg-amber-500 rounded-sm"></span>
-        <span>Konsultasi Proyek Gratis</span>
+      <div class="text-xs font-extrabold uppercase tracking-widest text-amber-600 mb-2">
+        Konsultasi Proyek Gratis
       </div>
       <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
         Formulir Rencana Proyek
