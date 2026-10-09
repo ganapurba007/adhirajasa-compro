@@ -20,7 +20,7 @@ describe('Footer Component (FR-1.4)', () => {
     expect(wrapper.text()).toContain(companyData.contact.phone)
     expect(wrapper.text()).toContain(companyData.contact.email)
     expect(wrapper.text()).toContain('BANGUN KARYA')
-    expect(wrapper.text()).toContain('Seluruh hak cipta dilindungi')
+    expect(wrapper.text()).toContain('All rights reserved')
   })
 
   it('renders quick navigation links and social media links', () => {

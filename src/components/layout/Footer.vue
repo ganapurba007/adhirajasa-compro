@@ -145,7 +145,7 @@ const getSocialIcon = (name) => {
       <!-- Copyright Bar -->
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
         <p>
-          &copy; {{ currentYear }} <span class="text-slate-400 font-semibold">{{ companyData.name }}</span>. Seluruh hak cipta dilindungi.
+          &copy; {{ currentYear }} <span class="text-slate-400 font-semibold">{{ companyData.name }}</span>. All rights reserved.
         </p>
         <div class="flex items-center text-slate-500">
           <span class="text-amber-500 font-medium">Standar Mutu K3 & ISO Certified</span>
