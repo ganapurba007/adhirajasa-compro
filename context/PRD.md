@@ -127,7 +127,7 @@ Volume data dummy minimal: 8 proyek, 5 layanan, 4 anggota tim, 4 testimoni, 3 he
 | 4 | Proyek: grid, filter, detail (FR-5.x) | ✅ |
 | 5 | Kontak: form, validasi, simulasi submit (FR-6.x) | ✅ |
 | 6 | Polishing: responsif, aksesibilitas, SEO, optimasi gambar | ✅ |
-| 7 | Rilis: deploy, README, screenshot, tautan demo | ⬜ |
+| 7 | Rilis: deploy, README, screenshot, tautan demo | ✅ |
 
 ## 7. Non-Goals
 Hal-hal yang SENGAJA tidak dibangun di scope ini, supaya AI tidak menambahkannya secara tidak diminta:

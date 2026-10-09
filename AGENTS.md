@@ -8,9 +8,9 @@
 **Stack:** Vue 3 (Vite), Tailwind CSS, Vue Router, Pinia, Zod, data dummy JSON lokal (tanpa backend/database), Vitest + @vue/test-utils
 
 ## Status Saat Ini
-- **Fase aktif:** Fase 7 — Rilis & Dokumentasi Akhir
+- **Fase aktif:** Selesai — Seluruh Fase 0–7 Selesai (Proyek Siap Rilis)
 - **Test:** 46 passed / 46 total
-- **Sedang dikerjakan:** Siap menyelesaikan Fase 7 (Penyusunan README.md, panduan deployment, dan checklist rilis)
+- **Sedang dikerjakan:** Seluruh milestone & dokumentasi selesai terverifikasi
 - **Update terakhir:** 2026-10-09
 
 > Update 3 baris di atas setiap kali fase/task berubah. Jangan biarkan basi.
