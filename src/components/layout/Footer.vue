@@ -51,16 +51,16 @@ const getSocialIcon = (name) => {
         
         <!-- Kolom 1: Profil Singkat & Sosial (lg:col-span-5) -->
         <div class="lg:col-span-5 space-y-5">
-          <RouterLink to="/" class="flex items-center gap-3 group inline-flex" aria-label="PT Bangun Karya Nusantara">
+          <RouterLink to="/" class="flex items-center gap-3 group inline-flex" aria-label="PT Adhirajasa Karya Mandiri">
             <div class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-slate-950 font-bold shadow">
               <HardHat class="w-6 h-6" />
             </div>
             <div>
               <div class="text-xl font-extrabold text-white tracking-tight">
-                BANGUN KARYA
+                ADHIRAJASA
               </div>
               <div class="text-[10px] tracking-widest text-amber-400 font-bold uppercase -mt-0.5">
-                Nusantara Kontraktor
+                Karya Mandiri Kontraktor
               </div>
             </div>
           </RouterLink>

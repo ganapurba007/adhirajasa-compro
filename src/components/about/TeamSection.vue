@@ -50,7 +50,7 @@ const team = teamData
 
           <!-- Bottom Decorative Footer -->
           <div class="px-6 pb-6 pt-2 border-t border-slate-200/60 flex items-center justify-between text-slate-400">
-            <span class="text-[11px] font-medium text-slate-500">PT Bangun Karya Nusantara</span>
+            <span class="text-[11px] font-medium text-slate-500">PT Adhirajasa Karya Mandiri</span>
             <div class="flex items-center gap-2 text-slate-600 hover:text-amber-600 transition-colors">
               <Linkedin class="w-4 h-4 cursor-pointer" />
             </div>

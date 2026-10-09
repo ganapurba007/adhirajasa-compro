@@ -1,6 +1,6 @@
-# PT Bangun Karya Nusantara — Company Profile
+# PT Adhirajasa Karya Mandiri — Company Profile
 
-> **Website Company Profile Modern Kontraktor Umum & Konstruksi Rekayasa Terpadu.**  
+> **Website Company Profile Modern Kontraktor Umum & Rekayasa Konstruksi Terpadu.**  
 > Proyek portfolio frontend multi-halaman yang dibangun menggunakan **Vue 3, Vite, Tailwind CSS v4, Vue Router, Pinia, dan Zod**, dengan arsitektur data lokal JSON terstruktur serta cakupan 46 Unit Tests via **Vitest**.
 
 ---
@@ -167,4 +167,4 @@ Proyek ini adalah Single Page Application (SPA) Vue 3. Untuk memastikan *client-
 - Seluruh nama perusahaan, nama klien, dan nomor kontak yang digunakan bersifat fiktif.
 
 ---
-© 2026 PT Bangun Karya Nusantara. Dikelola untuk Portfolio Rekayasa Frontend.
+© 2026 PT Adhirajasa Karya Mandiri. Dikelola untuk Portfolio Rekayasa Frontend.

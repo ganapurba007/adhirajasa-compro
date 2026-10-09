@@ -71,17 +71,17 @@ const isActive = (path) => {
         <RouterLink 
           to="/" 
           class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1"
-          aria-label="PT Bangun Karya Nusantara - Kembali ke Beranda"
+          aria-label="PT Adhirajasa Karya Mandiri - Kembali ke Beranda"
         >
           <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-slate-900 to-slate-800 flex items-center justify-center text-amber-500 shadow-md group-hover:scale-105 transition-transform duration-200">
             <HardHat class="w-6 h-6" />
           </div>
           <div>
             <div class="text-lg sm:text-xl font-extrabold tracking-tight text-slate-900 leading-tight">
-              BANGUN KARYA
+              ADHIRAJASA
             </div>
             <div class="text-[10px] tracking-widest text-amber-600 font-bold uppercase -mt-0.5">
-              Nusantara Kontraktor
+              Karya Mandiri Kontraktor
             </div>
           </div>
         </RouterLink>

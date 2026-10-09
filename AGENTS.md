@@ -3,7 +3,7 @@
 > File ini adalah pintu masuk pertama untuk AI agent. Baca file ini SEBELUM membaca file lain.
 
 ## Proyek
-**Nama:** Company Profile PT Bangun Karya Nusantara (dummy portfolio)
+**Nama:** Company Profile PT Adhirajasa Karya Mandiri (dummy portfolio)
 **Tujuan:** Website company profile perusahaan kontraktor fiktif untuk portfolio, menampilkan kemampuan membangun website multi-halaman yang responsif, aksesibel, dan terstruktur rapi.
 **Stack:** Vue 3 (Vite), Tailwind CSS, Vue Router, Pinia, Zod, data dummy JSON lokal (tanpa backend/database), Vitest + @vue/test-utils
 

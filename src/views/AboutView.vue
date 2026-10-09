@@ -12,7 +12,7 @@ import CtaBanner from '@/components/sections/CtaBanner.vue'
     <!-- Page Header Banner with Breadcrumbs -->
     <PageHeader
       title="Tentang Kami"
-      subtitle="Profil komprehensif, visi misi, sejarah perjalanan, dan jajaran pimpinan PT Bangun Karya Nusantara."
+      subtitle="Profil komprehensif, visi misi, sejarah perjalanan, dan jajaran pimpinan PT Adhirajasa Karya Mandiri."
       :breadcrumbs="[{ name: 'Tentang Kami' }]"
       backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
     />

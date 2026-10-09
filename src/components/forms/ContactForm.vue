@@ -377,7 +377,7 @@ const handleSubmit = async () => {
             />
           </div>
           <label for="agreement" class="text-xs text-slate-600 leading-relaxed cursor-pointer select-none">
-            Saya menyetujui bahwa data yang saya masukkan digunakan oleh tim PT Bangun Karya Nusantara untuk menghubungi saya perihal konsultasi proyek ini. <span class="text-rose-500">*</span>
+            Saya menyetujui bahwa data yang saya masukkan digunakan oleh tim PT Adhirajasa Karya Mandiri untuk menghubungi saya perihal konsultasi proyek ini. <span class="text-rose-500">*</span>
           </label>
         </div>
         <p v-if="errors.agreement" id="agreement-error" class="mt-1.5 text-xs text-rose-600 flex items-center gap-1 font-medium pl-7">

@@ -61,7 +61,7 @@ onUnmounted(() => {
     @mouseleave="handleMouseLeave"
     @focusin="handleMouseEnter"
     @focusout="handleMouseLeave"
-    aria-label="Hero Slider PT Bangun Karya Nusantara"
+    aria-label="Hero Slider PT Adhirajasa Karya Mandiri"
   >
     <!-- Slides Loop -->
     <div 

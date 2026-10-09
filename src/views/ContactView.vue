@@ -84,7 +84,7 @@ const faqs = [
             <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-lg space-y-6">
               <div class="border-b border-slate-100 pb-4">
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-600 block mb-1">Informasi Kantor</span>
-                <h3 class="text-2xl font-extrabold text-slate-900">Kantor Pusat PT BKN</h3>
+                <h3 class="text-2xl font-extrabold text-slate-900">Kantor Pusat PT Adhirajasa</h3>
               </div>
 
               <ul class="space-y-5 text-sm">

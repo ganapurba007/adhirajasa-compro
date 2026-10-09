@@ -9,7 +9,7 @@
 ## company.json (objek tunggal)
 | Field | Tipe | Constraint | Keterangan |
 |---|---|---|---|
-| name | string | wajib | "PT Bangun Karya Nusantara" |
+| name | string | wajib | "PT Adhirajasa Karya Mandiri" |
 | tagline | string | wajib | |
 | about | string | wajib | Ringkasan profil |
 | vision | string | wajib | |

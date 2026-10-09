@@ -22,7 +22,7 @@ const highlights = [
           <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
             <img
               src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80"
-              alt="Tim Konstruksi PT Bangun Karya Nusantara"
+              alt="Tim Konstruksi PT Adhirajasa Karya Mandiri"
               class="w-full h-[400px] sm:h-[480px] object-cover hover:scale-105 transition-transform duration-700"
               loading="lazy"
             />

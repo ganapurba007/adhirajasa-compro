@@ -1,4 +1,4 @@
-# PRD.md — Company Profile PT Bangun Karya Nusantara (Dummy Portfolio)
+# PRD.md — Company Profile PT Adhirajasa Karya Mandiri (Dummy Portfolio)
 
 > Dokumen ini adalah RENCANA. Untuk kebenaran struktur data saat ini, selalu rujuk `SCHEMA.md`, bukan §4 di bawah. Kalau ada perbedaan antara section manapun di sini dengan kode aktual, catat di §9 Amandemen — jangan biarkan diam-diam berbeda.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 1. Overview
-**Apa yang dibangun:** Website company profile multi-halaman untuk perusahaan kontraktor fiktif, PT Bangun Karya Nusantara, memakai Vue 3 dan Tailwind CSS. Semua konten (teks, proyek, tim, testimoni) adalah data dummy dari file JSON lokal; tidak ada backend.
+**Apa yang dibangun:** Website company profile multi-halaman untuk perusahaan kontraktor fiktif, PT Adhirajasa Karya Mandiri, memakai Vue 3 dan Tailwind CSS. Semua konten (teks, proyek, tim, testimoni) adalah data dummy dari file JSON lokal; tidak ada backend.
 **Untuk siapa:** (1) calon klien perorangan/instansi/korporat yang menilai kredibilitas kontraktor; (2) reviewer portfolio (HRD/engineer) yang menilai kualitas UI dan kode.
 **Masalah yang diselesaikan:** Menjadi bukti kemampuan membangun website profesional yang responsif, aksesibel, dan terstruktur rapi (komponen reusable, routing, form dengan validasi) untuk portfolio.
 

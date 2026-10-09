@@ -6,7 +6,7 @@ const routes = [
     name: 'home',
     component: () => import('../views/HomeView.vue'),
     meta: {
-      title: 'Beranda | PT Bangun Karya Nusantara',
+      title: 'Beranda | PT Adhirajasa Karya Mandiri',
       description: 'Kontraktor umum terpercaya untuk pembangunan gedung, infrastruktur, renovasi, dan interior berkualitas tinggi di Indonesia.'
     }
   },
@@ -15,8 +15,8 @@ const routes = [
     name: 'about',
     component: () => import('../views/AboutView.vue'),
     meta: {
-      title: 'Tentang Kami | PT Bangun Karya Nusantara',
-      description: 'Mengenal profil, visi, misi, legalitas resmi, dan jajaran tim manajemen PT Bangun Karya Nusantara.'
+      title: 'Tentang Kami | PT Adhirajasa Karya Mandiri',
+      description: 'Mengenal profil, visi, misi, legalitas resmi, dan jajaran tim manajemen PT Adhirajasa Karya Mandiri.'
     }
   },
   {
@@ -24,7 +24,7 @@ const routes = [
     name: 'services',
     component: () => import('../views/ServicesView.vue'),
     meta: {
-      title: 'Layanan Konstruksi | PT Bangun Karya Nusantara',
+      title: 'Layanan Konstruksi | PT Adhirajasa Karya Mandiri',
       description: 'Layanan konstruksi komprehensif mulai dari pembangunan gedung, jalan & infrastruktur, renovasi, interior, hingga pengawasan proyek.'
     }
   },
@@ -33,8 +33,8 @@ const routes = [
     name: 'projects',
     component: () => import('../views/ProjectsView.vue'),
     meta: {
-      title: 'Portfolio Proyek | PT Bangun Karya Nusantara',
-      description: 'Eksplorasi rekam jejak proyek konstruksi prestisius yang telah berhasil diselesaikan oleh PT Bangun Karya Nusantara.'
+      title: 'Portfolio Proyek | PT Adhirajasa Karya Mandiri',
+      description: 'Eksplorasi rekam jejak proyek konstruksi prestisius yang telah berhasil diselesaikan oleh PT Adhirajasa Karya Mandiri.'
     }
   },
   {
@@ -42,7 +42,7 @@ const routes = [
     name: 'project-detail',
     component: () => import('../views/ProjectDetailView.vue'),
     meta: {
-      title: 'Detail Proyek | PT Bangun Karya Nusantara',
+      title: 'Detail Proyek | PT Adhirajasa Karya Mandiri',
       description: 'Informasi detail spesifikasi, ruang lingkup, dan galeri dokumentasi proyek konstruksi.'
     }
   },
@@ -51,8 +51,8 @@ const routes = [
     name: 'contact',
     component: () => import('../views/ContactView.vue'),
     meta: {
-      title: 'Hubungi Kami | PT Bangun Karya Nusantara',
-      description: 'Konsultasikan kebutuhan proyek konstruksi Anda bersama tim ahli PT Bangun Karya Nusantara.'
+      title: 'Hubungi Kami | PT Adhirajasa Karya Mandiri',
+      description: 'Konsultasikan kebutuhan proyek konstruksi Anda bersama tim ahli PT Adhirajasa Karya Mandiri.'
     }
   },
   {
@@ -60,7 +60,7 @@ const routes = [
     name: 'not-found',
     component: () => import('../views/NotFoundView.vue'),
     meta: {
-      title: '404 - Halaman Tidak Ditemukan | PT Bangun Karya Nusantara',
+      title: '404 - Halaman Tidak Ditemukan | PT Adhirajasa Karya Mandiri',
       description: 'Halaman yang Anda tuju tidak ditemukan.'
     }
   }
